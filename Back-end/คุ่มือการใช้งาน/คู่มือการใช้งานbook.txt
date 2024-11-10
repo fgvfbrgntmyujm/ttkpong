@@ -1,0 +1,9 @@
+{
+  "name": "Learning JavaScript",
+  "author": "John Doe",
+  "price": 29.99
+}
+
+
+
+http://localhost:8000/swagger#tag/default/PUT/books/{id}

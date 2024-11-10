@@ -1,0 +1,21 @@
+{
+  "name": "booktest",
+  "version": "1.0.50",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bun run --watch src/index.ts",
+    "start": "bun run src/index.ts"
+  },
+  "dependencies": {
+    "@elysiajs/swagger": "^1.1.5",
+    "bcryptjs": "^2.4.3",
+    "elysia": "^1.1.24",
+    "jose": "^5.9.6",
+    "jsonwebtoken": "^9.0.2",
+    "swagger-jsdoc": "^6.2.8"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "module": "src/index.js"
+}
